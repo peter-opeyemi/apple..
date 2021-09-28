@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+.one{
+    background-color: rgb(32, 30, 30);
+    width: 100%;
+    color: rgb(243, 214, 214);
+   display: flex;
+   position: fixed;
+   top: 0;
+   right: 0;
+   justify-content: space-between;
+   height: 50px;
+   padding-top: 10px;
+   padding-left: 300px;
+   padding-right: 300px;
+   cursor: pointer;
+}
+
+.one > div:nth-child(1):hover{
+    color: whitesmoke;
+}
+.one > div:nth-child(2):hover {
+    color: whitesmoke;
+}
+.one > div:nth-child(3):hover {
+    color: whitesmoke;
+}
+.one > div:nth-child(4):hover {
+    color: whitesmoke;
+}
+.one > div:nth-child(5):hover {
+    color: whitesmoke;
+}
+.one > div:nth-child(6):hover {
+    color: whitesmoke;
+}
+.one > div:nth-child(7):hover {
+    color: whitesmoke;
+}
+.one > div:nth-child(8):hover {
+    color: whitesmoke;
+}
+.A{
+    margin-top: 50px;
+    background-color: whitesmoke;
+   height: 40px;
+   padding-top: 10px;
+   text-align: center;
+}
+p > a{
+    text-decoration: none;
+}
+p > a:hover{
+    text-decoration: underline;
+}
+.two{
+    color: blue;
+    margin-top: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+div > h1 {
+font-family: 'Lato', sans-serif;
+font-size: 65px;
+color: black;
+}
+div > h2 {
+font-family: 'Lato', sans-serif;
+font-weight: lighter;
+font-size: 30px;
+color: black;
+}
+#a {
+    color: rgb(107, 89, 14);
+    font-size: 20px;
+font-family: 'Lato', sans-serif;
+}
+div > a{
+    text-decoration: none;
+font-family: 'Lato', sans-serif;
+font-size: 20px;
+}
+div > a:hover{
+    text-decoration: underline;
+}
+#b{
+    margin-left: 25px;
+}
+.three{
+    margin-top: 380px;
+    color: blue;
+    align-items: center;
+    text-align: center;
+
+}
+.B{
+    padding-top: 40px;
+background-color: black;
+height: 500px;
+}
+.B > h1 {   
+    color: white;
+}
+.B > h2{
+    color: white;
+}
+.B > p{
+color: rgb(107, 89, 14);
+font-size: 20px;
+}
+.C{
+    background: url(./photo.jpeg);
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 220px;
+}
+div > h3{
+    word-spacing: 50px;
+    font-size: 60px;
+}
+.wire {
+
+    display: flex;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+margin-top: 10px;
+}
+.film {
+      background-color: black;
+    flex: 1;
+    padding-top: 50px;
+    color: white;
+    line-height: 30px;
+}
+.film > strong {
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#no {
+    margin-left: 20px;
+}
+.movie {
+    margin-left: auto;
+    background-color: yellow;
+    margin-left: 10px;
+    flex: 1;
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    line-height: 30px;
+    
+}
+strong {
+    font-size: 40px;
+}
+.movie > span {
+    color: red;
+}
+.nepa {
+    display: flex;
+    cursor: pointer;
+    height: 400px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+.God {
+    background-color: steelblue;
+    flex: 1;
+    padding-top: 50px;
+}
+#day {
+    font-size: 25px;
+}
+.Jesus {
+    margin-left: auto;
+    background-color: teal;
+    flex: 1;
+    margin-left: 10px;
+    padding-top: 50px;
+}
+.song {
+    display: flex;
+    cursor: pointer;
+    height: 400px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 30px;
+    font-family: sans-serif;
+
+}
+.gen {
+    padding-top: 50px;
+    background-color: gold;
+    flex: 1;
+}
+.real {
+    padding-top: 50px;
+    margin-left: auto;
+    background: url('./picture.jpeg');
+    flex: 1;
+    margin-left: 10px;
+}
+#stop {
+    font-size: 25px;
+}
+#go {
+    color: white;
+}
+.love{
+    margin-top: 10px;
+    background-color: rgb(194, 189, 189);
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+tr{
+    text-align: left;
+}
+
+tr{
+   text-indent: 50px;
+}
+nav > a{
+    color: grey;
+}
+td > a {
+    color: grey;
+}
+/* #stress{
+    text-indent: 100px;
+} */
+#liar{
+    margin-left: 220px;
+}
+#sorry{
+    margin-left: 20px;
+}
+#no{
+    color: grey;
+}
+
+ @media all and (max-width: 600px) {
+
+    .one{
+        /* background-color: blue; */
+        text-indent: 12px;
+        padding-left: 50px;
+
+    }   
+.mum {
+  word-spacing: 100%;
+  
+ 
+}
+.A{
+    font-size: 20px;
+ 
+}
+.two > div > h1 {
+    margin-top: 70px;
+    font-size: 30px;
+}
+div > h2{
+    font-size: 20px;
+}
+div > p {
+    font-size: 15px;
+}
+div > #a {
+font-size: 15px;
+}
+div > a {
+    font-size: 15px;
+}
+ div > h1{
+    font-size: 30px;
+
+}
+.wire{
+    display: table;
+    
+    width: 100%;
+ 
+}
+.film{
+    height: 400px;
+}
+.movie{
+   
+margin-top: 10px;
+margin-left: 0;
+height: 400px;
+}
+.nepa{
+    display: table;
+    width: 100%;
+}
+.God{
+    height: 400px;
+}
+.Jesus{
+    margin-top: 10px;
+    margin-left: 0;
+    height: 400px;
+}
+.song{
+    display: table;
+    width: 100%;
+}
+.gen{
+    height: 400px;
+}
+.real{
+    background-color: royalblue;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.love{
+    /* padding-left: 0; */
+    padding: 0;
+}
+.nineteen{
+    font-size: 10px;
+}
+
+
+table{
+    font-size: 12px;
+}
+
+tr{
+    text-indent: 2px;
+}
